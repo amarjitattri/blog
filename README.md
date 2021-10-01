@@ -6,7 +6,7 @@ Usage Instructions
 4. php artisan key:generate
 5. create a new database and add database credentials to .env file.
 6. php artisan migrate --seed
-	By Default seeder will create admin user. For admin user, you will see all permissions. but when you create a new user by register route. For these types of users have by default add and show the posts permission.
+	By Default seeder create admin user and I will add the ceredentias in email for your use. For admin user, you will see all permissions. but when you create a new user by register route. For these types of users have by default add and show the posts permission.
 7. BROADCAST_DRIVER=pusher
 8.  set env variables
 	PUSHER_APP_ID=1275707
